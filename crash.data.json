@@ -1,0 +1,35 @@
+{
+    "libc.so": {
+      "default": "The crash is happening in a DEFAULT Android library and cannot be obtained... Just try to update all mods or remove recently installed!"
+    },
+    "libGLESv2.so": {
+      "default": "Your GPU driver just crashed?"
+    },
+    "libGLESv2_adreno.so": {
+      "default": "Your GPU driver just crashed?"
+    },
+    "libAML.so": {
+      "default": "The AML library has been crashed! Report it to the AML author!"
+    },
+    "libGTASA.so": {
+      "0x1E73B6": "This crash is related to the RLEDecompress. If you have some texdb mods installed, install some other or try to fix the current.",
+      "0x5B95FC": "Remove mod named VehicleShadowFix",
+      "0x3EB9FC": "Too much mods?! Try to increase this limit in FLA: rwObjectInstances",
+      "0x591EA4": "Broken IFP may result in this, because the crash is happening because it cant get correct animations for vehicle",
+      "0x222DB6": "The game used deleted texture. This may be the mod`s fault",
+      "0x44EB06": "Something with the matrices. Try to increase this limit in FLA: Matrices",
+      "0x26726A": "The game is trying to read files that doesnt exists. Check if your game cache missing something",
+      "0x2670D4": "The game is trying to read files that doesnt exists. Check if your game cache missing something",
+      "0x6AACCC": "This is the weird crash code, but the reason is that some mod is destroying a very important object",
+      "0x213DF6": "Something is happening with the models. You can try to disable PreloadLODs in JPatch",
+      "0x4CE6A2": "Something is wrong with 'tasks'. There is no solution, atleast i dont know any? Too much peds?!",
+      "0x5946EC": "Try to increase this limit in FLA: Water triangles, Water quads, Water quads and triangles list, Water vertices",
+      "0x40EAAC": "Game tried to work with deleted entity. Check your mods!",
+      "0x4D6A76": "Update NCOO, it`s too old",
+      "0x280F28": "IPL file is corrupted!",
+      "0x3519BC": "Crash in opcode 04FE - BURST_CAR_TYRE. The problem is a CLEO/Scripts. Are you modifying a lot of cars?",
+      "0x35682A": "Crash in opcode 0611 - IS_CHAR_PLAYING_ANIM. The problem is a CLEO/Scripts. Are you using Improved main.scm?",
+      "0x5AADEE": "Crash is happening while trying to read text from GXT, and so you have broken GXT",
+      "0x1E47B6": "Got crashed in a second after starting the game? Well, there is no known solution for this, yet"
+    }
+  }
